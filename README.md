@@ -11,11 +11,11 @@ Take a baseline installation of a Linux distribution on a virtual machine and pr
 
 ### Server Details
 
-Server IP address: 52.27.62.61
+Server IP address: 52.37.82.202
 
 SSH port: 2200
 
-Application URL: http://52.27.62.61
+Application URL: http://ec2-52-37-82-202.us-west-2.compute.amazonaws.com/
 
 
 ### Software Installed
@@ -84,7 +84,7 @@ vim ~/.ssh/authorized_keys
 Set correct permissions
 ```sh
 chmod 700 ~/.ssh
-chmod 644 ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
 ```
 
 #### Change the SSH port from 22 to 2200
